@@ -1,7 +1,7 @@
 vector-role
 =========
 
-Download and install Lighthouse
+Download and install Vector
 
 Role Variables
 --------------
