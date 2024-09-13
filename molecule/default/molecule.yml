@@ -11,3 +11,13 @@ platforms:
   - name: centos
     image: pycontribs/centos:7
     pre_build_image: true
+scenario:
+  test_sequence:
+  - create
+  - prepare
+  - converge
+  - idempotence
+  - side_effect
+  - verify
+  - cleanup
+  - destroy
