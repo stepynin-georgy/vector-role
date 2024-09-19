@@ -5,6 +5,6 @@
     interpreter_python: /usr/bin/python
   gather_facts: true
   tasks:
-    - name: Include vector
-      include_role:
-        name: vecror
+    - name: "Include vector"
+      ansible.builtin.include_role:
+        name: "vector-role"
