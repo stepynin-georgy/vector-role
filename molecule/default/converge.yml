@@ -7,4 +7,4 @@
   tasks:
     - name: "Include vector"
       ansible.builtin.include_role:
-        name: "vector-role"
+        name: georgy.vector
